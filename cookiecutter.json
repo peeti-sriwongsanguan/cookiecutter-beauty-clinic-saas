@@ -1,0 +1,22 @@
+{
+    "project_name": "Beauty Clinic SaaS",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
+    "clinic_name": "Your Beauty Clinic",
+    "description": "AI-powered business workflow management for beauty and anti-aging clinics",
+    "author_name": "Your Name",
+    "author_email": "your.email@example.com",
+    "version": "0.1.0",
+    "python_version": "3.11",
+    "timezone": "UTC",
+    "primary_language": "en",
+    "secondary_language": "th",
+    "use_ai_features": "y",
+    "use_image_processing": "y", 
+    "use_real_time": "y",
+    "deployment_platform": ["gcp", "aws", "local"],
+    "_copy_without_render": [
+        "{{cookiecutter.project_slug}}/frontend/*/node_modules",
+        "{{cookiecutter.project_slug}}/venv",
+        "{{cookiecutter.project_slug}}/data/sample/patients/before_after_images"
+    ]
+}
