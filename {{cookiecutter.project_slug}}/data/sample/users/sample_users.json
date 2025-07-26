@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "email": "admin@{{cookiecutter.clinic_name.lower().replace(' ', '')}}.com",
+      "full_name": "System Administrator",
+      "role": "admin",
+      "password": "admin123"
+    },
+    {
+      "email": "doctor@{{cookiecutter.clinic_name.lower().replace(' ', '')}}.com",
+      "full_name": "Dr. Sarah Johnson",
+      "role": "doctor",
+      "password": "doctor123"
+    },
+    {
+      "email": "staff@{{cookiecutter.clinic_name.lower().replace(' ', '')}}.com",
+      "full_name": "Jane Smith",
+      "role": "staff",
+      "password": "staff123"
+    }
+  ]
+}

@@ -11,7 +11,7 @@
     "primary_language": "en",
     "secondary_language": "th",
     "use_ai_features": "y",
-    "use_image_processing": "y", 
+    "use_image_processing": "y",
     "use_real_time": "y",
     "deployment_platform": ["gcp", "aws", "local"],
     "_copy_without_render": [
